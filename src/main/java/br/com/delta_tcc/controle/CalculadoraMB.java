@@ -27,6 +27,7 @@ public class CalculadoraMB {
         return "resultado";
     } 
 	public String calc() {
+		this.bean = new Calculadora();
         return "index";
     } 
 	
