@@ -28,9 +28,7 @@
 						<source>1.6</source>
 						<target>1.6</target>
 					</configuration>
-				</plugin>
-				
-				
+				</plugin>								
 				
 			</plugins>
 		</pluginManagement>
@@ -58,25 +56,7 @@
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
 			<version>4.0</version>
-		</dependency>
-		
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
-		</dependency>
-
-		<dependency>
-			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.1</version>
-		</dependency>		
+		</dependency>					
 		
 	</dependencies>
 
