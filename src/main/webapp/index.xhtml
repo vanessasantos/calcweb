@@ -16,7 +16,7 @@
 			<p:messages id="messages" />
 
 			<h:panelGrid columns="4" cellpadding="5">
-				<h:outputLabel for="txt1" value="Informe um Número: *" />
+				<h:outputLabel for="txt1" value="Informe o 1º número: *" />
 				<p:inputText id="txt1" value="#{CalculadoraMB.bean.n1}"
 					required="true" label="Valor 1">
 					<f:validateLength minimum="2" />
@@ -31,13 +31,12 @@
 					<f:selectItem itemLabel="+" itemValue="+" />
 					<f:selectItem itemLabel="-" itemValue="-" />
 					<f:selectItem itemLabel="/" itemValue="/" />
-					<f:selectItem itemLabel="*" itemValue="*" />
-					<f:selectItem itemLabel="^" itemValue="^" />
+					<f:selectItem itemLabel="*" itemValue="*" />					
 				</h:selectOneMenu>
 				<p:message for="txt3" />
 				<h:outputText value="#{CalculadoraMB.bean.operador}" />
 
-				<h:outputLabel for="txt2" value="Informe um Número: *" />
+				<h:outputLabel for="txt2" value="Informe o 2º número: *" />
 				<p:inputText id="txt2" value="#{CalculadoraMB.bean.n2}"
 					required="true" label="Valor 2" />
 				<p:message for="txt2" />
