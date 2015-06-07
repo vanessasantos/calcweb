@@ -25,14 +25,15 @@
 				<h:outputText value="" />
 
 				<h:outputLabel for="txt3" value="Selecione um operador: *" />
-				<h:selectOneMenu id="txt3" value="#{CalculadoraMB.bean.operador}"
-					required="true" label="Operador">
-					<f:selectItem itemLabel=" " itemValue="" noSelectionOption="true" />
-					<f:selectItem itemLabel="+" itemValue="+" />
+				<h:selectOneRadio id="txt3" value="#{CalculadoraMB.bean.operador}"
+					required="true" label="Operador">					
+					<f:selectItem itemLabel="+" itemValue="+" />					
 					<f:selectItem itemLabel="-" itemValue="-" />
-					<f:selectItem itemLabel="/" itemValue="/" />
-					<f:selectItem itemLabel="*" itemValue="*" />					
-				</h:selectOneMenu>
+					<f:selectItem itemLabel="*" itemValue="*" />
+					<f:selectItem itemLabel="/" itemValue="/" />					
+				</h:selectOneRadio>
+				
+
 				<p:message for="txt3" />
 				<h:outputText value="#{CalculadoraMB.bean.operador}" />
 
